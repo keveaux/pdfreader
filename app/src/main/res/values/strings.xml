@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">pdfreader</string>
+    <string name="title_activity_pdf">PDFActivity</string>
+    <string name="title_activity_pop_up">PopUp</string>
+    <string name="label_google_sign_in">Firebase + Google Sign In</string>
+    <string name="desc_google_sign_in">Use a Google Sign In credential to authenticate with Firebase.</string>
+
+
+    <string name="hint_user_id">User ID</string>
+    <string name="get_custom_token">Get Token</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="send_link">Send Link</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="verify_email">Verify Email</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="loading">Loading…</string>
+    <string name="custom_token">Custom Token</string>
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+
+    <string name="status_sign_in_failed">Sign-in failed</string>
+    <string name="instant_validation">(instant validation)</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+
+    <string name="change_language">change language</string>
+    <string name="logout">logout</string>
+    <string name="hello_world">hello</string>
+    <string name="short_stories">short stories</string>
+    <string name="poems">poems</string>
+    <string name="motivational">motivational</string>
+    <string name="share">share</string>
+    <string name="search">search...</string>
+    <string name="choose_language">choose language</string>
+    <string name="categories">categories</string>
+    <string name="add_to_cart">add to cart</string>
+    <string name="preview">preview</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all_books">all books</string>
+    <string name="alreadyincart">already in cart</string>
+    <string name="mylibrary">My Library</string>
+    <string name="clearcart">clear cart</string>
+    <string name="CheckOut">Check out</string>
+    <string name="proceed">added to cart!!!! do you want to</string>
+    <string name="continueshopping">continue shopping</string>
+    <string name="proceedcheckout">proceed to checkout</string>
+    <string name="confirm">Proceed</string>
+    <string name="removefromcart">remove</string>
+    <string name="removeall">remove all</string>
+    <string name="title_activity_my_library_pdf">MyLibraryPdfActivity</string>
+    <string name="authors">authors</string>
+    <string name="books"><u>books</u></string>
+    <string name="followers">followers</string>
+    <string name="followme">follow me</string>
+</resources>

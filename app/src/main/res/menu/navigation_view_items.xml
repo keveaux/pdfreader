@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<group android:checkableBehavior="all"
+    app:showAsAction="never"
+    >
+    <item
+        android:id="@+id/my_library"
+        android:checked="true"
+        android:icon="@drawable/mylibrary"
+        android:title="@string/mylibrary"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/change_language"
+        android:checked="true"
+        android:icon="@drawable/changelanguage"
+        android:title="@string/change_language"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:title="@string/logout"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_icon"
+        android:title="@string/share"
+        />
+
+    <item
+        android:id="@+id/authors"
+        android:icon="@drawable/authors"
+        android:title="@string/authors"
+        />
+</group>
+
+<item
+    android:id="@+id/navigation_view_category_2"
+    android:title="@string/categories"
+    app:showAsAction="never"
+    >
+    <menu>
+        <item
+            android:id="@+id/all_books"
+            android:icon="@drawable/book_icon"
+            android:title="@string/all_books" />
+
+        <item
+            android:id="@+id/short_stories"
+            android:icon="@drawable/book_icon"
+            android:title="@string/short_stories" />
+        <item
+            android:id="@+id/poems"
+            android:icon="@drawable/book_icon"
+            android:title="@string/poems" />
+        <item
+            android:id="@+id/motivational"
+            android:icon="@drawable/book_icon"
+            android:title="@string/motivational" />
+
+    </menu>
+</item>
+</menu>

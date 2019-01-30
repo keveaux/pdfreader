@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">pdfreader</string>
+    <string name="change_language">Badilisha lugha</string>
+    <string name="logout">toka</string>
+    <string name="hello_world">hello</string>
+    <string name="short_stories">hadithi fupi</string>
+    <string name="poems">mashairi</string>
+    <string name="motivational"> vitabu vya kuchochea</string>
+    <string name="share">tuma</string>
+    <string name="search">tafuta...</string>
+    <string name="choose_language">chagua lugha</string>
+    <string name="categories">makundi</string>
+    <string name="add_to_cart">ongeza kikapuni</string>
+    <string name="preview">preview</string>
+    <string name="all_books">vitabu vyote</string>
+    <string name="alreadyincart">imo kikapuni</string>
+    <string name="mylibrary">maktaba</string>
+    <string name="CheckOut">nunua</string>
+    <string name="authors">waandishi</string>
+    <string name="books"><u>vitabu</u></string>
+
+
+
+
+
+</resources>

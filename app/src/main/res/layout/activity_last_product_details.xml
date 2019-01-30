@@ -1,0 +1,102 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/container"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#123456">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/layoutTop" >
+
+        <Button
+            android:id="@+id/previewbtn"
+            android:layout_width="109dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="148dp"
+            android:layout_marginStart="126dp"
+            android:background="@drawable/my_button_bg"
+            android:text="@string/preview" />
+
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="126dp"
+            android:text="description" />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Large"
+            android:textStyle="bold"
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="64dp"
+            android:layout_marginTop="74dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/add_to_cart"
+            android:layout_width="109dp"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="45dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/my_button_bg"
+            android:text="@string/add_to_cart" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/overlapImage"
+        android:layout_width="138dp"
+        android:layout_height="210dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/watchmen" />
+
+    <TextView
+        android:id="@+id/bookname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/overlapImage"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+    <ImageView
+        android:layout_margin="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/expanded_image"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        />
+</FrameLayout>
